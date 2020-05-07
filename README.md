@@ -11,3 +11,8 @@ A BetterTouchTool Trigger for monitoring healthchecks.io cron jobs in your Touch
 5. Replace `INSERT_YOUR_API_KEY_HERE` with your [healthchecks.io](http://www.healthchecks.io) API key.
 6. At the very bottom, set Alternate Color Regex to `^down`.
 7. Configure Common attributes to fit your theme!
+
+## To do:
+
+- Multiple projects
+- Job-specific status widgets
