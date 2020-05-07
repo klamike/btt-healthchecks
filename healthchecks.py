@@ -20,4 +20,10 @@ def main():
     print('up')
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except:
+        # specify what to do if there is an error
+        # generally lack of internet connection
+        print('up')
+        # print('down')
