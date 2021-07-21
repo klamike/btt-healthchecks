@@ -1,6 +1,6 @@
 # btt-healthchecks
 
-A BetterTouchTool Trigger for monitoring healthchecks.io cron jobs in your Touch Bar!
+A [BetterTouchTool](https://folivora.ai/) Trigger for monitoring healthchecks.io cron jobs in your Touch Bar!
 
 ## How to Install
 
