@@ -10,11 +10,8 @@ def main():
         timeout=5,
     )
     
-    # if you have a lot of checks, it might
-    # be worth changing this loop to this one-liner:
-    # print('down') if 'down' in str(response.text) else print('up')
-    for i in response.json()['checks']:
-        if i['status'] == 'down':
+    for check in response.json()['checks']:
+        if check['status'] == 'down':
             print('down')
             break
     print('up')
